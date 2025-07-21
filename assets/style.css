@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.font-edu {
+  font-family: 'Edu Tas Beginner', sans-serif;
+}
+
+.font-mono {
+  font-family: 'Sometype Mono', monospace;
+}
+
+header {
+  background-image: url("/assets/img/wall.png");
+}
+
+main {
+  background-image: url("/assets/img/cork.png");
+  height: 100vh;
+}
+
+.polaroid {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  color: black;
+}
+
+.img-width {
+  max-width: 100%;
+}
+
+.pin {}
