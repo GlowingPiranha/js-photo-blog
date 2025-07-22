@@ -60,9 +60,18 @@ main {
   color: #333;
 }
 
+.text-2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.text-50 {
+  font-size: 80px;
+}
+
 .polaroid-wrapper:hover {
   transform: scale(1.15) rotate(10deg);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
   cursor: pointer;
 
 }

@@ -15,8 +15,8 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/').then((resp) => {
             <img src="/assets/img/pin.svg" alt="pin" class="pin-img">
             <div class="polaroid">
               <img src="${generatePolaroid[i].url}" alt="dummy" class="img-width">
-              <div class="text font-edu">${generatePolaroid[i].title}</div>
               <div class="text font-mono">${generatePolaroid[i].date}</div>
+              <div class="text-2 font-edu">${generatePolaroid[i].title}</div>
             </div>
           </div>
         </div>`
