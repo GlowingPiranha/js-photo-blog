@@ -25,6 +25,7 @@ main {
   position: relative;
   width: 300px;
   margin: 20px auto;
+  transition: all 0.3s;
 }
 
 .polaroid {
@@ -57,4 +58,13 @@ main {
 .text {
   font-size: 16px;
   color: #333;
+}
+
+.polaroid-wrapper:hover {
+  transform: scale(1.15) rotate(15deg);
+
+}
+
+.polaroid-wrapper:hover .pin-img {
+  display: none;
 }
